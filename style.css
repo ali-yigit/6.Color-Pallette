@@ -10,8 +10,9 @@ body {
   align-items: center;
 }
 #btn {
-  padding: 20px;
-
+  padding: 15px;
+height: 110px;
+width: 500px;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
@@ -21,6 +22,12 @@ body {
   outline: 0.2rem inset rgba(0, 0, 0, 0.5);
   outline-offset: 0.5rem;
 }
+
+p{
+  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+
+}
+
 
 #btn:hover {
   outline-offset: -0.5rem;
