@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn {
+  padding: 20px;
+
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 30px;
+  border: none;
+  outline: 0.2rem inset rgba(0, 0, 0, 0.5);
+  outline-offset: 0.5rem;
+}
+
+#btn:hover {
+  outline-offset: -0.5rem;
+  outline: -0rem;
+  background-color: rgba(0, 0, 0, 0.8);
+}
